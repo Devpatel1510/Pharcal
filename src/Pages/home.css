@@ -1,0 +1,82 @@
+main {
+  background: #2c2540; /* Dark background for contrast */
+  color: #fff; /* White text color for readability */
+  padding: 40px 20px; /* Padding around the content */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  max-width: 800px; /* Maximum width for the main content */
+  margin: 20px auto; /* Center the main section */
+  text-align: center; /* Center align text */
+}
+
+main h1 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  font-weight: 600; /* Bold font weight */
+  color: #e0c3fc; /* Light color for the heading */
+}
+
+main p {
+  font-size: 1.1rem; /* Slightly larger font size for the paragraph */
+  line-height: 1.6; /* Increased line height for readability */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+button {
+  background: #9f7aea; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 12px 24px; /* Padding inside the button */
+  border-radius: 8px; /* Rounded corners for buttons */
+  font-size: 1rem; /* Font size for button text */
+  font-weight: 600; /* Bold font weight for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+  margin: 0 10px; /* Space between buttons */
+}
+
+button:hover {
+  background: #7c53c1; /* Darker background on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Reset lift effect on click */
+}
+
+.dev2 {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+
+  min-height: 100vh; /* Full height of viewport */
+  padding: 20px;
+  text-align: center;
+
+  color: #f0eaff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.dev2 span {
+  margin-top: 30px; /* space between text and buttons */
+  display: flex;
+  gap: 16px; /* space between buttons */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dev2 button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #9f7aea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+

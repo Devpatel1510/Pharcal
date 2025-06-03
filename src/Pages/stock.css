@@ -1,0 +1,187 @@
+#c {
+    margin-bottom: 20px; /* Space below the button container */
+}
+
+button {
+    background: #9f7aea; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 12px 24px; /* Padding inside the button */
+    border-radius: 8px; /* Rounded corners for buttons */
+    font-size: 1rem; /* Font size for button text */
+    font-weight: 600; /* Bold font weight for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+    margin: 0 10px; /* Space between buttons */
+}
+
+button:hover {
+    background: #7c53c1; /* Darker background on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}
+
+/* Add1 div styles */
+#add1 {
+    visibility: hidden; /* Initially hidden */
+    background: #2c2540; /* Dark background for contrast */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the div */
+    max-width: 360px; /* Maximum width for the add1 div */
+    margin: 0 auto; /* Center the add1 div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    gap: 15px; /* Space between elements */
+}
+
+#add1 span {
+    display: flex; /* Flexbox for label and input */
+    align-items: center; /* Center align items */
+    justify-content: space-between; /* Space between label and input */
+    font-weight: 600; /* Bold font weight for labels */
+    font-size: 14px; /* Font size for labels */
+    color: #d0c9f8; /* Light color for labels */
+}
+
+#add1 input {
+    flex: 1; /* Allow input to grow */
+    padding: 10px; /* Padding inside the input */
+    border-radius: 8px; /* Rounded corners */
+    border: none; /* Remove default border */
+    background: #3a2e56; /* Dark background for inputs */
+    color: #e4d9fc; /* Light text color for inputs */
+    font-size: 1rem; /* Font size for input text */
+    font-weight: 600; /* Bold font weight for input text */
+    transition: box-shadow 0.3s ease; /* Smooth transition for focus effect */
+    margin-bottom: 15px; /* Space below the input fields */
+}
+
+#add1 input:focus {
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 8px #bb86fc; /* Glow effect on focus */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+thead {
+    background: #3a2e56; /* Dark background for the header */
+}
+
+thead tr {
+    height: 50px; /* Height for table header */
+}
+
+thead td {
+    color: #d0c9f8; /* Light color for header text */
+    font-weight: 600; /* Bold font weight for header text */
+    text-align: left; /* Left align header text */
+    padding: 10px; /* Padding inside header cells */
+}
+
+tbody tr {
+    height: 40px; /* Height for table rows */
+}
+
+tbody td {
+    color: #fff; /* White text color for table rows */
+    padding: 10px; /* Padding inside table cells */
+    border-bottom: 1px solid #444; /* Bottom border for rows */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Padding for footer */
+    background: #2c2540; /* Dark background for footer */
+    color: #fff; /* White text color for footer */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width for footer */
+}
+
+#search1 {
+  visibility: hidden; /* Hidden by default */
+  background: #2c2540; /* Dark background for contrast */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 25px 30px; /* Generous padding */
+  max-width: 380px;
+  margin: 20px auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between children */
+  font-family: 'Poppins', sans-serif;
+  color: #d0c9f8;
+}
+
+#search1 span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#search1 input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #3a2e56;
+  color: #e4d9fc;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: box-shadow 0.3s ease;
+}
+
+#search1 input:focus {
+  outline: none;
+  box-shadow: 0 0 8px #bb86fc;
+}
+
+#search1 button {
+  align-self: flex-start;
+  cursor: pointer;
+  background-color: #9f7aea;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: white;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+#search1 button:hover {
+  background-color: #7c53c1;
+  box-shadow: 0 6px 16px rgba(124, 83, 193, 0.7);
+}
+
+#search1 button:active {
+  background-color: #5f3a9a;
+}
+
+
+  input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  margin: 10px auto; /* auto horizontally centers it */
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
